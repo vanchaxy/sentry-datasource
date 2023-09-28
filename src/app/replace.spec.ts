@@ -82,6 +82,7 @@ describe('replace', () => {
         statsCategory: [],
         statsFields: [],
         statsGroupBy: [],
+        statsInterval: '',
         statsOutcome: [],
         statsReason: [],
       };

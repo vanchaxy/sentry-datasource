@@ -71,6 +71,7 @@ export type SentryStatsV2Query = {
   statsCategory: SentryStatsV2QueryCategory[];
   statsOutcome: SentryStatsV2QueryOutcome[];
   statsReason: string[];
+  statsInterval: string;
 } & SentryQueryBase<'statsV2'>;
 export type SentryQuery = SentryIssuesQuery | SentryStatsV2Query;
 //#endregion
