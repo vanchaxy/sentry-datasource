@@ -1,15 +1,15 @@
 {
   "$schema": "https://raw.githubusercontent.com/grafana/grafana/main/docs/sources/developers/plugins/plugin.schema.json",
   "type": "datasource",
-  "name": "Sentry",
-  "id": "grafana-sentry-datasource",
+  "name": "Sentry (Competera Fork)",
+  "id": "grafana-sentrycompeterafork-datasource",
   "metrics": true,
   "backend": true,
   "alerting": true,
   "annotations": true,
-  "executable": "gpx_sentry-datasource",
+  "executable": "gpx_competera_fork_sentry-datasource",
   "info": {
-    "description": "Grafana datasource plugin for Sentry",
+    "description": "Grafana datasource plugin for Sentry (Competera Fork)",
     "author": {
       "name": "Grafana Labs",
       "url": "https://grafana.com"
